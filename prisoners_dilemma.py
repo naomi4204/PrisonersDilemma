@@ -436,3 +436,10 @@ def move(my_history, their_history, my_score, their_score):
     else:
         return 'c' # otherwise collude
            
+# Test 1
+     if test_move(my_history='',
+                 their_history='',
+                 my_score=0,
+                 their_score=0,
+                 result='b'):
+         print 'Test passed'
